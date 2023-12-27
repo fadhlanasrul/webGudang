@@ -1,0 +1,13 @@
+GET http://localhost:5000
+###
+POST http://localhost:5000/.netlify/finction/api/item
+Content-Type: application/json
+
+{
+    "name" : "Khafka",
+    "description":"test1",
+    "price":"100000",
+    "quantity":"10",
+    "category":"barang",
+    "date":"10-10-10"
+}
